@@ -1,5 +1,28 @@
 # AGENTS.md
 
+## 📚 Documentation References
+
+For every request:
+
+1. Always refer to the documentation files stored under `/vooster-docs` (accessible via the relative paths below):
+<vooster-docs>
+- prd.md: ./vooster-docs/prd.md
+- architecture.md: ./vooster-docs/architecture.md
+- guideline.md: ./vooster-docs/guideline.md
+- step-by-step.md: ./vooster-docs/step-by-step.md
+- clean-code.md: ./vooster-docs/clean-code.md
+- design-system.md: ./vooster-docs/design-system.md (ClickUp-inspired design system v2.0)
+</vooster-docs>
+
+2. Use the relevant file(s) depending on the context of the request.
+3. Never ignore these files. Consider them for:
+    - Providing accurate information
+    - Ensuring consistency
+    - Following documented guidelines
+    - Making decisions or generating content
+
+---
+
 ## Must
 
 - always use client component for all components. (use `use client` directive)
